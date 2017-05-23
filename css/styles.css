@@ -2,22 +2,25 @@
 eggshell #f3e9dc (243, 233, 220)
 light gray #d0ccd0 (208, 204, 208)
 dark liver #584B53 rgb(88,75,83)
-wenge #605856
+wenge #605856 rgb(96,88,86)
 metallic seaweed #1c6e8c (28,110,140)
 red rgb(169, 44, 44)
 */
 body {
-  background: #605856;
+  background:
+    linear-gradient(
+      rgba(96, 88, 86, 0.9),
+      rgba(96, 88, 86, 0.9)
+    ), url("../images/rusty_sign_cropped.jpeg");
 }
 
 header {
   padding: 15px;
   background:
-   linear-gradient(
-     rgba(28, 110, 140, 0.45),
-     rgba(28, 110, 140, 0.45)
-   ),
-   url(images/pbc_service.jpg);
+    linear-gradient(
+      rgba(28, 110, 140, 0.85),
+      rgba(28, 110, 140, 0.85)
+    ), url("../images/wood.jpeg");
 }
 
 .location {
@@ -43,6 +46,7 @@ footer {
 
 .dropdown-menu {
   min-width: 300px;
+  padding: 15px;
 }
 
 /* .thumbnail-row styles*/
@@ -69,9 +73,7 @@ footer {
   padding: 0;
 }
 
-.active {
-  color: #584B53;
-}
+
 
 /* .connect-list styles*/
 .connect-list{

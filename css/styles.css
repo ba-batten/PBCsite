@@ -1,0 +1,122 @@
+/*
+eggshell #f3e9dc (243, 233, 220)
+light gray #d0ccd0 (208, 204, 208)
+dark liver #584B53 rgb(88,75,83)
+wenge #605856
+metallic seaweed #1c6e8c (28,110,140)
+red rgb(169, 44, 44)
+*/
+body {
+  background: #605856;
+}
+
+header {
+  padding: 15px;
+  background:
+   linear-gradient(
+     rgba(28, 110, 140, 0.45),
+     rgba(28, 110, 140, 0.45)
+   ),
+   url(images/pbc_service.jpg);
+}
+
+.location {
+  background: rgb(169, 44, 44);
+  /*margin: -15px 40px 0 0;*/
+  padding: 10px 60px;
+  border-radius: 0 0 10px 10px;
+}
+
+footer {
+  margin-top: 15px;
+  color: #f3e9dc;
+  font-size: 12px;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.pic-border {
+  border: 4px solid #f3e9dc;
+}
+
+.dropdown-menu {
+  min-width: 300px;
+}
+
+/* .thumbnail-row styles*/
+.thumbnail-row {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.thumbnail-row li{
+  width: calc((100% / 3) - 10px);
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.thumbnail-row li:last-of-type {
+  margin-right: 0;
+}
+
+/* navbar styles*/
+
+.nav-a {
+  padding: 0;
+}
+
+.active {
+  color: #584B53;
+}
+
+/* .connect-list styles*/
+.connect-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background: rgba(208, 204, 208, 0.6);
+  color: #f3e9dc;
+  border-radius: 15px;
+}
+
+.connect-list li {
+  border-bottom: 1px #584B53 solid;
+  padding-bottom: 10px;
+  margin: 10px 0;
+}
+
+.connect-list li:first-of-type{
+  padding-top: 15px;
+  margin-top: 0;
+}
+
+.connect-list li:last-of-type {
+  margin-bottom: 0;
+}
+
+.connect-list li:last-of-type {
+  border: none;
+}
+
+.connect-list img {
+  /*margin: 5px 0;*/
+  /*display: inline;*/
+  border-radius: 50%;
+}
+
+.info-container {
+  /*width: 65%;*/
+}
+
+.connect-list h4 {
+  color: #1c6e8c;
+}
+
+.connect-list p {
+  font-size: 14px;
+  color: rgb(88,75,83);
+}

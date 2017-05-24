@@ -38,6 +38,14 @@ footer {
   font-size: 12px;
 }
 
+.nav-logo {
+  max-width: 40px;
+  margin: auto;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
 .carousel {
   margin-bottom: 20px;
 }
@@ -84,7 +92,7 @@ footer {
 }
 
 .navbar-default .navbar-brand {
-  color: #1c6e8c;
+  color: #1c6e8c
 }
 
 .navbar-default .navbar-toggle {
@@ -150,6 +158,7 @@ footer {
 
   .carousel {
     border: none;
+    margin: 0;
   }
 
   .connect-list li p {

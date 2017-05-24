@@ -5,6 +5,7 @@ dark liver #584B53 rgb(88,75,83)
 wenge #605856 rgb(96,88,86)
 metallic seaweed #1c6e8c (28,110,140)
 red rgb(169, 44, 44)
+charcoal #374B4A
 */
 body {
   background:
@@ -21,6 +22,7 @@ header {
       rgba(28, 110, 140, 0.85),
       rgba(28, 110, 140, 0.85)
     ), url("../images/wood.jpeg");
+  display: none;
 }
 
 .location {
@@ -68,11 +70,31 @@ footer {
 }
 
 /* navbar styles*/
-
-.nav-a {
-  padding: 0;
+.navbar-default,
+.navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background: #f3e9dc;
 }
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a {
+  background: #1c6e8c;
+  color: #f3e9dc;
+}
+
+.navbar-default .navbar-brand {
+  color: #1c6e8c;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  text-align: center;
+  color: #584B53;
+}
 
 
 /* .connect-list styles*/
@@ -91,16 +113,8 @@ footer {
   margin: 10px 0;
 }
 
-.connect-list li:first-of-type{
-  padding-top: 15px;
-  margin-top: 0;
-}
-
 .connect-list li:last-of-type {
   margin-bottom: 0;
-}
-
-.connect-list li:last-of-type {
   border: none;
 }
 
@@ -121,4 +135,24 @@ footer {
 .connect-list p {
   font-size: 14px;
   color: rgb(88,75,83);
+}
+
+@media screen and (max-width: 485px){
+  .main {
+    padding: 0;
+    background: #605856;
+  }
+
+  .navbar, .connect-list {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .carousel {
+    border: none;
+  }
+
+  .connect-list li p {
+    color: #f3e9dc;
+  }
 }

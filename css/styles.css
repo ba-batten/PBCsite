@@ -46,6 +46,11 @@ footer {
   margin: 0;
 }
 
+.main-logo {
+  width: 150px;
+  margin: -50% auto;
+}
+
 .carousel {
   margin-bottom: 20px;
 }
@@ -163,5 +168,10 @@ footer {
 
   .connect-list li p {
     color: #f3e9dc;
+  }
+
+  footer {
+    background: #1c6e8c;
+    margin: 0;
   }
 }

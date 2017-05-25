@@ -38,13 +38,13 @@ footer {
   font-size: 12px;
 }
 
-.nav-logo {
+/*.nav-logo {
   max-width: 40px;
   margin: auto;
   display: inline;
   padding: 0;
   margin: 0;
-}
+}*/
 
 .main-logo {
   width: 150px;
@@ -83,7 +83,7 @@ footer {
 }
 
 /* navbar styles*/
-.navbar-default,
+/*.navbar-default,
 .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
@@ -107,7 +107,7 @@ footer {
 .navbar-default .navbar-nav>li>a {
   text-align: center;
   color: #584B53;
-}
+}*/
 
 
 /* .connect-list styles*/
@@ -132,8 +132,7 @@ footer {
 }
 
 .connect-list img {
-  /*margin: 5px 0;*/
-  /*display: inline;*/
+  width: 100px;
   border-radius: 50%;
 }
 
@@ -150,10 +149,14 @@ footer {
   color: rgb(88,75,83);
 }
 
-@media screen and (max-width: 485px){
+@media screen and (max-width: 766px){
   .main {
     padding: 0;
     background: #605856;
+  }
+
+  .nav li {
+    display: block;
   }
 
   .navbar, .connect-list {
@@ -164,6 +167,85 @@ footer {
   .carousel {
     border: none;
     margin: 0;
+  }
+
+  .pic-holder {
+    display: none;
+  }
+
+  .connect-list, .connect-list li {
+    padding: 0;
+    margin: 0;
+  }
+
+  .connect-list li {
+    padding: 0;
+  }
+
+  .info-container {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+    color: white;
+  }
+
+  .info-container h4, .info-container p {
+    color: white;
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;*/
+    margin: 10px auto;
+    font-size: 2em;
+  }
+
+  .connect-list li:nth-child(1) .info-container {
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ), url("../images/cross_large.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .connect-list li:nth-child(2) .info-container {
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url("../images/team_large.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .connect-list li:nth-child(3) .info-container {
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url("../images/volunteer_large.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .connect-list li:nth-child(4) .info-container {
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ), url("../images/africa_large.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+  .connect-list li:nth-child(5) .info-container {
+    background-image: url("../images/bible_large.jpg");
+    background-position: center;
+    background-size: cover;
   }
 
   .connect-list li p {

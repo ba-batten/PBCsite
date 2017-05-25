@@ -16,13 +16,20 @@ body {
 }
 
 header {
-  padding: 15px;
+  padding: 20px;
   background:
     linear-gradient(
       rgba(28, 110, 140, 0.85),
       rgba(28, 110, 140, 0.85)
     ), url("../images/wood.jpeg");
-  display: none;
+}
+
+header h5 {
+  background: rgb(169, 44, 44);
+  padding: 20px;
+  display: inline;
+  color: white;
+  border-radius: 0 0 15px 15px;
 }
 
 .location {
@@ -36,6 +43,10 @@ footer {
   margin-top: 15px;
   color: #f3e9dc;
   font-size: 12px;
+}
+
+.navbar-brand {
+  display: none;
 }
 
 /*.nav-logo {

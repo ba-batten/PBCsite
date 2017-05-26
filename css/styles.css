@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  padding: 10px;
+  padding: 5px;
   background:
     linear-gradient(
       rgba(28, 110, 140, 0.85),
@@ -149,14 +149,17 @@ footer {
   }
 }
 
+.pale_background {
+  background: rgba(208, 204, 208, 0.6);
+  border-radius: 15px;
+  padding: 10px;
+}
+
 /* .connect-list styles*/
 .connect-list{
+  color: #f3e9dc;
   list-style-type: none;
   margin: 0;
-  padding: 10px;
-  background: rgba(208, 204, 208, 0.6);
-  color: #f3e9dc;
-  border-radius: 15px;
 }
 
 .connect-list li {
@@ -186,6 +189,12 @@ footer {
 .connect-list p {
   font-size: 14px;
   color: rgb(88,75,83);
+}
+
+/* from_pastor styles*/
+
+.pastor {
+  max-width: 50%;
 }
 
 @media screen and (max-width: 766px){
@@ -296,5 +305,3 @@ footer {
     margin: 0;
   }
 }
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help

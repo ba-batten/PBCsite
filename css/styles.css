@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 10px;
   background:
     linear-gradient(
       rgba(28, 110, 140, 0.85),
@@ -24,9 +24,10 @@ header {
     ), url("../images/wood.jpeg");
 }
 
+
 header h5 {
   background: rgb(169, 44, 44);
-  padding: 20px;
+  padding: 10px 20px;
   display: inline;
   color: white;
   border-radius: 0 0 15px 15px;
@@ -49,17 +50,10 @@ footer {
   display: none;
 }
 
-/*.nav-logo {
-  max-width: 40px;
-  margin: auto;
-  display: inline;
-  padding: 0;
-  margin: 0;
-}*/
-
 .main-logo {
   width: 150px;
   margin: -50% auto;
+  background:
 }
 
 .carousel {
@@ -94,32 +88,66 @@ footer {
 }
 
 /* navbar styles*/
-/*.navbar-default,
-.navbar-toggle,
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
+.navbar {
+  background-image: none;
   background: #f3e9dc;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.open>a {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: #f3e9dc;
+}
+
+.navbar-default .navbar-nav>.active>a {
   background: #1c6e8c;
-  color: #f3e9dc;
+  color: white;
 }
 
-.navbar-default .navbar-brand {
-  color: #1c6e8c
-}
-
-.navbar-default .navbar-toggle {
-  border: none;
+.navbar-default .navbar-nav>.active>a:visited,
+.navbar-default .navbar-nav>.active>a:hover {
+  background: #1c6e8c ;
+  color: white;
 }
 
 .navbar-default .navbar-nav>li>a {
+  color: #584b53;
   text-align: center;
-  color: #584B53;
-}*/
+}
 
+.navbar-default .navbar-nav>li>a:active {
+  background: rgba(96, 88, 86, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-default {
+    padding-top: 5px;
+/*     background: none; */
+  }
+
+  .navbar-default:after {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: #1c6e8c;
+  }
+
+  .navbar-default .navbar-nav>li>a:visited {
+    background: #584b53;
+  }
+
+ .navbar-default .navbar-nav>li>a:hover {
+    background: rgb(169, 44, 44);
+    color: white;
+  }
+
+
+  .navbar-default .navbar-nav>li>a {
+    padding: 5px 20px;
+    border-radius: 15px 15px 0 0;
+    margin: 0 5px;
+    background: none;
+    color: #584B53;
+  }
+}
 
 /* .connect-list styles*/
 .connect-list{
@@ -268,3 +296,5 @@ footer {
     margin: 0;
   }
 }
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help

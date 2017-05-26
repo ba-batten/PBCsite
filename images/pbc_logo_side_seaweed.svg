@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="22.766756mm"
-   height="22.33033mm"
-   viewBox="0 0 22.766757 22.33033"
+   width="364.7547mm"
+   height="61.888039mm"
+   viewBox="0 0 364.75471 61.888046"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="pbc_logo.svg">
+   sodipodi:docname="pbc_logo_side_seaweed.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="106.81697"
-     inkscape:cy="68.566249"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="623.29023"
+     inkscape:cy="-40.430311"
      inkscape:document-units="mm"
-     inkscape:current-layer="g5755"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -38,7 +38,7 @@
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:snap-nodes="true" />
+     inkscape:snap-global="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,7 +55,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-78.809591,-107.36055)">
+     transform="translate(77.190721,-96.935419)">
     <g
        id="g4593"
        transform="rotate(-11.627499,121.77429,77.607372)" />
@@ -65,18 +65,38 @@
        cx="88.068436"
        cy="103.2296"
        r="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-24.574089"
+       y="136.17249"
+       id="text5793"><tspan
+         sodipodi:role="line"
+         id="tspan5791"
+         x="-24.574089"
+         y="136.17249"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#1c6e8c;fill-opacity:1;stroke-width:0.26458332px">Princeton Baptist Church</tspan></text>
+    <g
+       id="g4593-5"
+       transform="matrix(0.41321755,-0.08502808,0.08502808,0.41321755,150.71752,189.97336)" />
+    <circle
+       style="fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.28075784;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5684-0"
+       cx="193.41594"
+       cy="222.49724"
+       r="0" />
     <g
        id="g5755"
-       transform="matrix(1.0670419,0,0,1.0670419,4.6970018,20.663737)">
+       transform="matrix(0.18991053,0,0,0.18991054,-65.524037,110.46211)">
       <ellipse
-         ry="10.463661"
-         rx="10.668164"
+         ry="91.65374"
+         rx="93.44503"
          cy="91.713341"
-         cx="80.124283"
+         cx="93.546364"
          id="path5716"
-         style="fill:#a92c2c;fill-opacity:0.97524749;stroke:none;stroke-width:1.24839807;stroke-miterlimit:4;stroke-dasharray:7.49038825, 7.49038825;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:#a02c2c;fill-opacity:1;stroke:none;stroke-width:10.93502045;stroke-miterlimit:4;stroke-dasharray:65.61012271, 65.61012271;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         transform="matrix(0.11416513,0,0,0.11416513,69.709708,81.529721)"
+         transform="translate(2.3225608,2.5125475)"
          id="g5744"
          style="fill:#ffffff">
         <g
